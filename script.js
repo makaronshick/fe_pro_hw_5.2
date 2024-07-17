@@ -10,7 +10,6 @@ const END_VALUE = 100;
 const STEP = 10;
 const RATE = 26;
 
-let result = [];
 for (let i = START_VALUE; i <= END_VALUE; i += STEP) {
   console.log(`${i}$ = ${i*RATE}uah`);
 }
